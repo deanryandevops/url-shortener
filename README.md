@@ -25,3 +25,14 @@ A lightweight URL shortener service built with Go, containerized with Docker, an
 ```bash
 git clone https://github.com/yourusername/url-shortener.git
 cd url-shortener
+
+## Build and Deploy
+
+### Option 1: Local Development
+
+```bash
+# Build the Go binary
+go build -o url-shortener
+
+# Run locally
+./url-shortener
