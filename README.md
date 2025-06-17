@@ -76,8 +76,9 @@ kubectl logs -l app=url-shortener
 
 ```bash
 kubectl delete -f k8s/
-```
 minikube stop
+```
+
 
 
 
