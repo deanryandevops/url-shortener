@@ -26,7 +26,7 @@ A lightweight URL shortener service built with Go, containerized with Docker, an
 git clone https://github.com/yourusername/url-shortener.git
 cd url-shortener
 
-## Build and Deploy
+### 2. Build and Deploy
 
 # Build Docker image
 docker build -t url-shortener .
@@ -43,10 +43,9 @@ kubectl apply -f k8s/
 # Enable ingress
 minikube addons enable ingress
 
-## Run
+### 3. Run
 
 Add-Content -Path "C:\Windows\System32\drivers\etc\hosts" -Value "`n$(minikube ip) url-shortener.local" -Force
-
 
 ### Via Ingress
 
